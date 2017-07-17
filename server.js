@@ -12,6 +12,7 @@ app.get('/', function (req, res) {
   res.send('Hello world\n');
 });
 
+//listen to server
 app.listen(PORT, HOST);
 console.log('Running on http://' + HOST + ':' + PORT);
 
